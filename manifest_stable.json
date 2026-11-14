@@ -1,0 +1,290 @@
+{
+ "channel": "stable",
+ "fvu": {
+  "9": {
+   "file": "TDS_FVU_9.5.zip",
+   "notes": "First Release",
+   "released_at": "2026-11-14T10:56:22+00:00",
+   "sha256": "7b549a29e9682d89acf88ecc0b53732c794a8700a474ee8e52d7c8bd2912ed0c",
+   "size": 9543075,
+   "url": "https://github.com/ankitmittal31-hub/webtds-updates/releases/download/fvu-9.5/TDS_FVU_9.5.zip",
+   "version": "9.5"
+  }
+ },
+ "min_app_version": "7.0",
+ "notes": "First Release",
+ "published_at": "2026-11-14T10:56:22+00:00",
+ "rules": {
+  "data": {
+   "2020-21": {
+    "global_overrides": {
+     "section_206AA_invalid_pan": 20.0,
+     "section_206AB_multiplier": 1.0
+    },
+    "rules": {
+     "194C": {
+      "name": "Contractors",
+      "rates": {
+       "01": 1.5,
+       "02": 0.75
+      },
+      "threshold_aggregate": 100000
+     },
+     "194H": {
+      "name": "Commission",
+      "rates": {
+       "01": 3.75,
+       "02": 3.75
+      },
+      "threshold_aggregate": 15000
+     },
+     "194I_a": {
+      "name": "Rent - Plant/Machinery",
+      "rates": {
+       "01": 1.5,
+       "02": 1.5
+      },
+      "threshold_aggregate": 240000
+     },
+     "194I_b": {
+      "name": "Rent - Land/Building",
+      "rates": {
+       "01": 7.5,
+       "02": 7.5
+      },
+      "threshold_aggregate": 240000
+     },
+     "194J": {
+      "name": "Professional Services",
+      "rates": {
+       "01": 7.5,
+       "02": 7.5
+      },
+      "threshold_aggregate": 30000
+     }
+    }
+   },
+   "2021-22": {
+    "global_overrides": {
+     "section_206AA_194Q_invalid_pan": 5.0,
+     "section_206AA_invalid_pan": 20.0,
+     "section_206AB_multiplier": 2.0
+    },
+    "rules": {
+     "194C": {
+      "name": "Contractors",
+      "rates": {
+       "01": 2.0,
+       "02": 1.0
+      },
+      "threshold_aggregate": 100000
+     },
+     "194H": {
+      "name": "Commission",
+      "rates": {
+       "01": 5.0,
+       "02": 5.0
+      },
+      "threshold_aggregate": 15000
+     },
+     "194I_a": {
+      "name": "Rent - Plant/Machinery",
+      "rates": {
+       "01": 2.0,
+       "02": 2.0
+      },
+      "threshold_aggregate": 240000
+     },
+     "194I_b": {
+      "name": "Rent - Land/Building",
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 240000
+     },
+     "194J": {
+      "name": "Professional Services",
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 30000
+     },
+     "194Q": {
+      "name": "Purchase of Goods",
+      "rates": {
+       "01": 0.1,
+       "02": 0.1
+      },
+      "threshold_aggregate": 5000000
+     }
+    }
+   },
+   "2022-23": {
+    "global_overrides": {
+     "section_206AA_invalid_pan": 20.0,
+     "section_206AB_multiplier": 2.0
+    },
+    "rules": {
+     "194C": {
+      "rates": {
+       "01": 2.0,
+       "02": 1.0
+      },
+      "threshold_aggregate": 100000
+     },
+     "194I_b": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 240000
+     },
+     "194J": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 30000
+     }
+    }
+   },
+   "2023-24": {
+    "global_overrides": {
+     "section_206AA_invalid_pan": 20.0,
+     "section_206AB_multiplier": 2.0
+    },
+    "rules": {
+     "194C": {
+      "rates": {
+       "01": 2.0,
+       "02": 1.0
+      },
+      "threshold_aggregate": 100000
+     },
+     "194I_b": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 240000
+     },
+     "194J": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 30000
+     }
+    }
+   },
+   "2024-25": {
+    "global_overrides": {
+     "section_206AA_invalid_pan": 20.0,
+     "section_206AB_multiplier": 2.0
+    },
+    "rules": {
+     "194C": {
+      "rates": {
+       "01": 2.0,
+       "02": 1.0
+      },
+      "threshold_aggregate": 100000
+     },
+     "194I_b": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 240000
+     },
+     "194J": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 30000
+     }
+    }
+   },
+   "2025-26": {
+    "global_overrides": {
+     "section_206AA_invalid_pan": 20.0,
+     "section_206AB_multiplier": 2.0
+    },
+    "rules": {
+     "194C": {
+      "rates": {
+       "01": 2.0,
+       "02": 1.0
+      },
+      "threshold_aggregate": 100000
+     },
+     "194I_b": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 240000
+     },
+     "194J": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 30000
+     }
+    }
+   },
+   "2026-27": {
+    "global_overrides": {
+     "section_206AA_invalid_pan": 20.0,
+     "section_206AB_multiplier": 2.0
+    },
+    "rules": {
+     "194C": {
+      "rates": {
+       "01": 2.0,
+       "02": 1.0
+      },
+      "threshold_aggregate": 100000
+     },
+     "194I_b": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 240000
+     },
+     "194J": {
+      "rates": {
+       "01": 10.0,
+       "02": 10.0
+      },
+      "threshold_aggregate": 30000
+     }
+    }
+   },
+   "version": "2.0"
+  },
+  "sha256": "48ae1906b80edde23dc5f4d8579804f71592ea67a089355b66184c769a3a7496",
+  "version": "2.0",
+  "years": [
+   "2020-21",
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25",
+   "2025-26",
+   "2026-27"
+  ]
+ },
+ "schema": 1,
+ "seq": 1,
+ "signature": {
+  "alg": "ed25519",
+  "key_id": "869ad542839a9659",
+  "sig": "UZzH2m2uDaPtTL31y6iWluK5BZZVzfz9b98DVcf2wbRcKjG/uPINTeiPPvFIGG4b0BcPFkO1F2LMkTG+7ef8BQ=="
+ }
+}
