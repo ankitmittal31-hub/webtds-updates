@@ -1,0 +1,10 @@
+{
+  "version": "2.0",
+  "2020-21": {
+    "rules": {
+      "194C": { "name": "Contractors", "threshold_aggregate": 100000, "rates": { "01": 1.5, "02": 0.75 } },
+      "194J": { "name": "Professional Services", "threshold_aggregate": 30000, "rates": { "01": 7.5, "02": 7.5 } },
+      "194I_a": { "name": "Rent - Plant/Machinery", "threshold_aggregate": 240000, "rates": { "01": 1.5, "02": 1.5 } },
+      "194I_b": { "name": "Rent - Land/Building", "threshold_aggregate": 240000, "rates": { "01": 7.5, "02": 7.5 } },
+      "194H": { "name": "Commission", "threshold_aggregate": 15000, "rates": { "01": 3.75, "02": 3.75 } }
+    },
